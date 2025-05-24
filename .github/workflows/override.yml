@@ -6,10 +6,10 @@ on:
       - "stage"
 
 jobs:
-  sast_scan12:
+  sast_scan1234:
     runs-on: ubuntu-latest
     steps:
       - name: Hello from stage!
-        run: echo "Hello, sast_scan12!"
+        run: echo "Hello, sast_scan1234!"
         env:
           SUPER_SECRET: ${{ secrets.SuperSecret }}
