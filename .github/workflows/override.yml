@@ -6,8 +6,8 @@ on:
       - "stage"
 
 jobs:
-  sast_scan:
+  sast_scan1:
     runs-on: ubuntu-latest
     steps:
       - name: Hello from stage!
-        run: echo "Hello, sast_scan!"
+        run: echo "Hello, sast_scan1!"
