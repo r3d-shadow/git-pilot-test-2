@@ -1,0 +1,13 @@
+name: Container Scan
+
+on:
+  push:
+    branches:
+      - "prod"
+
+jobs:
+  sast_scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello from prod!
+        run: echo "Hello, sast_scan!"
