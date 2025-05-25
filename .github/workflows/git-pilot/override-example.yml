@@ -1,0 +1,15 @@
+name: scan
+
+on:
+  push:
+    branches:
+      - "stage"
+
+jobs:
+  sast:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello from stage!
+        run: echo "Hello4, sast!"
+        env:
+          SUPER_SECRET: ${{ secrets.SuperSecret }}
