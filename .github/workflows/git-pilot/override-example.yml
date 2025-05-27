@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello from stage!
-        run: echo "Hello7, sast!"
+        run: echo "Hello8, sast!"
         env:
           SUPER_SECRET: ${{ secrets.SuperSecret }}
